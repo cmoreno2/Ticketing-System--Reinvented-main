@@ -43,26 +43,7 @@ do
         string resp = Console.ReadLine().ToUpper();
         // if the response is anything other than "Y", stop asking
         if (resp != "Y") { break; }
-        Console.WriteLine("Enter Ticket ID");
-        int TicketID = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Give a Ticket Summery");
-        string? Summery = Console.ReadLine();
-
-        Console.WriteLine("What is current Ticket Status");
-        string? Status = Console.ReadLine();
-       
-        Console.WriteLine("What is the Tickets Priority");
-        string? Priority = Console.ReadLine();
-
-        Console.WriteLine("Give Ticket Submitter");
-        string? Submitter = Console.ReadLine();
-
-        Console.WriteLine("Who is the Ticket Assigned to");
-        string? Assigned = Console.ReadLine();
-       
-        Console.WriteLine("Who is on Ticket Watch");
-        string? Watch = Console.ReadLine();
+        
         sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", TicketID, Summery, Status, Priority, Submitter, Assigned, Watch);
     }
     sw.Close();
