@@ -10,7 +10,7 @@ public string? Watch {get; set;}
 public Ticket()
     {
     Console.WriteLine("Enter Ticket ID");
-    TicketID = Convert.ToInt32((Console.ReadLine()));
+    TicketID = Convert.ToInt32(Console.ReadLine());
 
     Console.WriteLine("Give a Ticket Summery");
     Summery = Console.ReadLine();
