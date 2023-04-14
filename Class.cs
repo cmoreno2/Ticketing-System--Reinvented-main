@@ -1,4 +1,4 @@
-class Ticket
+public abstract class Ticket
 {
 public int TicketID {get; set;}
 public string?  Summery {get; set;}
